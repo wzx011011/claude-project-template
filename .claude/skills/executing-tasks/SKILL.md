@@ -52,8 +52,7 @@ description: "Executing tasks from the task queue with closed-loop verification,
 
 ### 5. 验证与更新
 
-- Agent 完成后，收集结果
-- 验证 commit hash 和测试结果
+- 验证标准和构建命令遵循 `.claude/rules/build-rules.md` 和 `.claude/rules/task-execution.md`
 - 更新 `docs/task-queue.md` 中的任务状态和 Notes
 - 展示进度表
 
